@@ -48,15 +48,15 @@ Check your balances with `token-balance` for FMTA and other ERC-20's or `balance
 
 ![image](https://user-images.githubusercontent.com/41549105/116767424-4a127900-a9ed-11eb-99d4-98ce39c1055b.png)
 
-Starting an FMTA teleport is simple. To make a teleport of 10 FMTA from the Kovan to Sokol Testnet Using the `teleport` command enter:
+Starting an FMTA teleport is simple. To make a teleport of 10 FMTA from the Ethereum network to Binance Smart Chain using the `teleport` command enter:
 
-`teleport 10 kovan sokol`
+`teleport 10 FMTA`
 
-![image](https://user-images.githubusercontent.com/41549105/111928909-9e374e80-8a7a-11eb-8477-a1a5b5299776.png)
+![image](https://user-images.githubusercontent.com/41549105/116767473-978ee600-a9ed-11eb-8482-e974e10a9eb9.png)
 
-The client will get a gas estimate and ask permission to send and then provide you with the Transaction ID (TX Passed) as well as Teleport ID.  The Teleport ID will be required to complete the teleport.  You can retrive all your wallets pending Teleport ID's by using the `pending` command.
+The client will ask for a source and destination network as well as get a gas estimate. It then asks permission to send and provides you with the Transaction ID (TX Passed) as well as Teleport ID once complete.  You can retrive all your wallets pending Teleport ID's by using the `pending` command.
 
-![image](https://user-images.githubusercontent.com/41549105/111929096-0a19b700-8a7b-11eb-9101-06b91e309dac.png)
+![image](https://user-images.githubusercontent.com/41549105/116767619-885c6800-a9ee-11eb-96f7-f5f72420d1c6.png)
 
 To complete the teleport we simply energize it using the `energize` command.
 
