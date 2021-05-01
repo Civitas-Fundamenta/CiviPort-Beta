@@ -72,5 +72,22 @@ That's it!  You have succesfully sent Test FMTA from the Ethereum network to Bin
 
 The above applies to Linux and mac operating systems but start the client using `./client --wallet-file WALLET --create-wallet` and your prefered method for unzipping.
 
+## Staking
 
+Staking with CiviPort CLI is super easy! All you need to do is type `stake <amount>` and you will be prompted to select a network.  a Gas estimate will be provided and you will be asked to select yes or no to send the transaction.
 
+![image](https://user-images.githubusercontent.com/41549105/116768223-2f8ece80-a9f2-11eb-898e-adff98888fff.png)
+
+To Check how many FMTA you have staked use the `stakes` command.
+
+![image](https://user-images.githubusercontent.com/41549105/116768247-58af5f00-a9f2-11eb-971c-3f6ec82624b1.png)
+
+To roll your pending rewards into your curent position use the `compound` command.
+
+![image](https://user-images.githubusercontent.com/41549105/116768265-9c09cd80-a9f2-11eb-9486-a17f944e460a.png)
+
+To Check pending rewards use the `rewards` command. You will be prompted to choose a network and be given a gas estimate as well as the choice to senmd the transaction.
+
+To withdraw pending rewards use the `take` command. You will be prompted to choose a network and be given a gas estimate as well as the choice to senmd the transaction.
+
+To remove stake and withdraw any pending rewards use the `unstake` command. You will be prompted to choose a network and be given a gas estimate as well as the choice to senmd the transaction.
