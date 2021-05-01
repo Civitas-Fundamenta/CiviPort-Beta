@@ -60,15 +60,17 @@ The client will ask for a source and destination network as well as get a gas es
 
 To complete the teleport we simply energize it using the `energize` command.
 
-`energize e7f057609ddbba6176c6924fef9712f1c51b595e09cd24f607115a3c0b342256`
+`energize 20b48c6022a68bb25bf760d954c7e67ff06dc85297356068c9fb3fd3e88991ec`
 
-![image](https://user-images.githubusercontent.com/41549105/111929192-43eabd80-8a7b-11eb-912a-132a9a1c50db.png)
+or alternatively just use `energize` and CiviPort will energize the last pending teleport. 
 
-That's it!  You have succesfully sent Test FMTA from the Kovan to Sokol Testnet!
+![image](https://user-images.githubusercontent.com/41549105/116767717-1e908e00-a9ef-11eb-8758-747eac4bf48d.png)
+
+That's it!  You have succesfully sent Test FMTA from the Ethereum network to Binance Smart Chain!
 
 ### Linux and Mac
 
-The above applies to Linux and mac operating systems but start the client using `./client --testnet --wallet-file WALLET --create-wallet` and your prefered method for unzipping.
+The above applies to Linux and mac operating systems but start the client using `./client --wallet-file WALLET --create-wallet` and your prefered method for unzipping.
 
 
 
