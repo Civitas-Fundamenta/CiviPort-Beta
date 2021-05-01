@@ -90,4 +90,4 @@ To Check pending rewards use the `rewards` command. You will be prompted to choo
 
 To withdraw pending rewards use the `take` command. You will be prompted to choose a network and be given a gas estimate as well as the choice to senmd the transaction.
 
-To remove stake and withdraw any pending rewards use the `unstake` command. You will be prompted to choose a network and be given a gas estimate as well as the choice to senmd the transaction.
+To remove stake and withdraw any pending rewards use the `unstake` command like `unstake <amount>`. You will be prompted to choose a network and be given a gas estimate as well as the choice to senmd the transaction.
