@@ -32,35 +32,17 @@ To start the client and create a new wallet use the following:
 
 `Client.exe --testnet --wallet-file WALLET --create-wallet`
 
-![image](https://user-images.githubusercontent.com/41549105/111911980-445c6780-8a2d-11eb-9993-b97c14d2d422.png)
+![image](https://user-images.githubusercontent.com/41549105/116726487-94213d80-a9a0-11eb-854b-7bd6e2cc14ba.png)
 
 This will create a wallet file called `WALLET` in the same directory as the client.  
 
 **NOTE** --create-wallet only needs to be passed when creating a new wallet.  When opening an existing wallet --create-wallet is not required.
 
-![image](https://user-images.githubusercontent.com/41549105/111912044-808fc800-8a2d-11eb-96a8-7c4f2ceecd9f.png)
+![image](https://user-images.githubusercontent.com/41549105/116727247-89b37380-a9a1-11eb-9d76-640aebce875a.png)
 
 This will start the CiviPort Client and connect to CiviSwarm and the bridge contracts. 
 
-![image](https://user-images.githubusercontent.com/41549105/111912034-7077e880-8a2d-11eb-9512-acc8d7e03098.png)
-
-To take part in testing you will need to have Test FMTA as well as SPOA and kETH from the solol and kovan testnets.  To get your wallets address simply type the command `address`.  Please come to https://t.me/CivitasFundamenta and paste your address to recieve test FMTA.  
-
-To get Testnet coins for the native chains use the following faucets:
-
-https://gitter.im/kovan-testnet/faucet# (You require a Twitter or Github account for this)
-
-https://faucet-sokol.herokuapp.com/
-
-https://faucet.matic.network/
-
-https://faucet.goerli.mudit.blog/ (Requires Twitter)
-
-https://faucet.rinkeby.io/ (Requires Twitter)
-
-https://testnet.binance.org/faucet-smart (Requires Twitter)
-
-Once you have the required coins testing can begin!
+![image](https://user-images.githubusercontent.com/41549105/116727374-b5365e00-a9a1-11eb-9f76-c72774728da9.png)
 
 Check your balances with `fmta-balance` for FMTA or `balance` for the Native chain's coin balances.
 
