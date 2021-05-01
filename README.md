@@ -44,9 +44,9 @@ This will start the CiviPort Client and connect to CiviSwarm and the bridge cont
 
 ![image](https://user-images.githubusercontent.com/41549105/116727374-b5365e00-a9a1-11eb-9f76-c72774728da9.png)
 
-Check your balances with `fmta-balance` for FMTA or `balance` for the Native chain's coin balances.
+Check your balances with `token-balance` for FMTA and other ERC-20's or `balance` for the Native chain's coin balances.
 
-![image](https://user-images.githubusercontent.com/41549105/111928595-b064bd00-8a79-11eb-907e-84dc41d5b157.png)
+![image](https://user-images.githubusercontent.com/41549105/116767424-4a127900-a9ed-11eb-99d4-98ce39c1055b.png)
 
 Starting an FMTA teleport is simple. To make a teleport of 10 FMTA from the Kovan to Sokol Testnet Using the `teleport` command enter:
 
