@@ -1,9 +1,9 @@
-# CiviPort-Alpha
-Alpha test of CiviPort V1 on the Kovan and Sokol Testnets
+# CiviPort-Beta
+This is a guide for the Beta mainnet release of Civiport
 
 ## Hello Admin how do I use this?
 
-The very fist thing you need to do is download the CiviPort Client from [here](https://github.com/Civitas-Fundamenta/CiviPort-Alpha/releases). Make sure you pick the right download for your operating system.
+The very fist thing you need to do is download the CiviPort Client from [here](https://github.com/Civitas-Fundamenta/CiviPort-Beta/releases). Make sure you pick the right download for your operating system.
 
 The donwload is a zip file which will need to be extracted:
 
